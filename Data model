@@ -5,6 +5,7 @@ class Registration :
     String password;
     String confirmPassword;
     String role;
+
 class Member :
 ------------
     String memberId;
@@ -37,16 +38,16 @@ class Book :
     boolean isDamaged;
     boolean isMissing;
 
-class IssueRecord : 
------------------
-    String recordId;
+class BorrowBooksDe :
+-------------------
+    String borrowId;
     String bookId;
     String memberId;
     LocalDate issueDate;
     LocalDate dueDate;
     LocalDate returnDate;
-    double fineAmount;
     boolean isReturned;
+    double fineAmount;
 
 lass FineAmount :
 ---------------
@@ -60,5 +61,13 @@ class DamageReport :
     String description;
     LocalDate reportDate;
     boolean isMissing;
+
+class StorageClass :
+------------------
+List<Book> bookList = new ArrayList<>();
+List<BorrowedBook> borrowedList = new ArrayList<>();
+List<User> userList = new ArrayList<>();
+List<Admin> adminList = new ArrayList<>();
+List<DueList> dueList = new ArrayList<>();
 
 
