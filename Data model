@@ -1,0 +1,7 @@
+class Registration :
+------------------
+    String memberId;
+    String username;
+    String password;
+    String confirmPassword;
+    String role;
