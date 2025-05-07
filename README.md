@@ -1,18 +1,24 @@
-1. Title
-                                                Book Wallet
+1. Title :
+   ------
+   			                                        	Book Wallet
 				                             (Feed for your knowledge Thrust)
 
-2. Target Audience
+2. Target Audience :
+   ---------------
     • School and college librarians
     • System administrators managing book database.
     • Aspirant
-3. Type of Project
+3. Type of Project :
+   ---------------
     • B2B
-4. Timeline
+4. Timeline :
+   --------
 	Estimated Time: 4-5 weeks
-5. Total Members Required
+5. Total Members Required :
+   -----------------------
    		5 to 6 members
-6. Features
+6. Features :
+   --------
     • Add, edit, delete, search books
     • Login page (admin, librarian, user
     • Track book availability and due dates
@@ -22,6 +28,7 @@
     • Notification system for due reminders
     • Popular books and active members
     • Track damaged/missing books
-7. Future Implementation
+7. Future Implementation :
+   ---------------------
     • AI-based Recommendations – Suggest books to users based on past behaviour
     • Barcode/QR Scanning – For easy book issue/return
