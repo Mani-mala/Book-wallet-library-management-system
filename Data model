@@ -5,3 +5,47 @@ class Registration :
     String password;
     String confirmPassword;
     String role;
+class Member :
+------------
+    String memberId;
+    String name;
+    String email;
+    String phone;
+    String address;
+    String registrationDate;
+    boolean isActive;
+
+class Login :
+------------
+    String userId;
+    String username;
+    String password;
+    String role; 
+
+class Book :
+----------
+    String bookId;
+    String title;
+    String author;
+    String publisher;
+    int publicationYear;
+    String genre;
+    boolean isAvailable;
+    LocalDate issueDate;
+    LocalDate dueDate;
+    int timesIssued;
+    boolean isDamaged;
+    boolean isMissing;
+
+class IssueRecord : 
+-----------------
+    String recordId;
+    String bookId;
+    String memberId;
+    LocalDate issueDate;
+    LocalDate dueDate;
+    LocalDate returnDate;
+    double fineAmount;
+    boolean isReturned;
+
+
