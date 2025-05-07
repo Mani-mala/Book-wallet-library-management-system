@@ -48,4 +48,17 @@ class IssueRecord :
     double fineAmount;
     boolean isReturned;
 
+lass FineAmount :
+---------------
+    double finePerDay;
+    double totalAmount;
+
+class DamageReport :
+------------------
+    String reportId;
+    String bookId;
+    String description;
+    LocalDate reportDate;
+    boolean isMissing;
+
 
