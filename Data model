@@ -49,10 +49,19 @@ class BorrowBooksDe :
     boolean isReturned;
     double fineAmount;
 
-lass FineAmount :
+class FineAmount :
 ---------------
     double finePerDay;
     double totalAmount;
+
+Class FinePayment :
+-----------------
+    PaymentId: String
+    RecordId: String
+    UserId: String
+    Amount: Double
+    PaymentDate: Long
+    PaymentMethod: String (e.g., "Card", "UPI", "Cash")
 
 class DamageReport :
 ------------------
