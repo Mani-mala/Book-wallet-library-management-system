@@ -71,6 +71,14 @@ class DamageReport :
     LocalDate reportDate;
     boolean isMissing;
 
+Class SearchFilter:
+------------------
+   String name;
+    String author;
+    String genre;
+    int publishedYear;
+    boolean available; 
+
 class StorageClass :
 ------------------
 List<Book> bookList = new ArrayList<>();
